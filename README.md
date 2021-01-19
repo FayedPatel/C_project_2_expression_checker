@@ -3,13 +3,14 @@
 This project checks for balanced expressions and returns whether the expression is balanced or not
 
 EX:
-
+```
 ( ( a a ) < > [ [ [ { [ x ] } ]]] <>)
-Expression is balanced
-( ( a a ) < > [ [ [ { [ x ] ]]] <>)
-                           
-                            ^ expecting }
 
+expression is balanced
+
+( ( a a ) < > [ [ [ { [ x ] ]]] <>)
+
+                            ^ expecting }
 ( ( a a ) ) < > > [ [ [ { [ x ] } ]]] <>)
  
                 ^ missing <
@@ -17,3 +18,4 @@ Expression is balanced
 ( ( a a ) < > [ [ [ { [ x ] } ]]]
  
                                  ^ missing )
+```
